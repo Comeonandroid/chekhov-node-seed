@@ -1,5 +1,5 @@
 {
-  "name": "example_api",
+  "name": "coinbets-services",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -48,8 +48,8 @@
     "express": "^4.14.1",
     "express-jwt": "^0.3.2",
     "express-session": "^1.15.0",
-    "jsonwebtoken": "^1.3.0",
-    "lodash": "^2.4.2",
+    "jsonwebtoken": ">=4.2.2",
+    "lodash": ">=4.17.5",
     "mailcomposer": "^4.0.1",
     "mailgun-js": "^0.8.1",
     "moment": "^2.17.1",
