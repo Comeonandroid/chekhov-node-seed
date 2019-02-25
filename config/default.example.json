@@ -1,0 +1,36 @@
+{
+  "host": "http://localhost:3000",
+  "mongoose": {
+    "uri": "mongodb://127.0.0.1:27017/example",
+    "options": {
+      "server": {
+        "socketOptions": {
+          "keepAlive": 1
+        }
+      }
+    }
+  },
+  "mailer": {
+    "apiKey": "key-abbad4f56c94a9a08a1804f8159d8fc2",
+    "host": "http://localhost:3000",
+    "fromEmail": "mail@example.com",
+    "domain": "mg.example.com"
+  },
+  "jwtSecret": "SKb79b57bb3c1785f64e6fef41eafc4b89",
+  "jwtSession": {
+    "session": false
+  },
+  "auth0": {
+    "domain": "chirpc.auth0.com",
+    "clientId": "lwwR0TaqXYeUSPg75iBEkVyeIW4nhWby"
+  },
+  "session": {
+      "secret": "ASCKYO@$2",
+      "key": "sid",
+      "cookie": {
+        "path": "/",
+        "httpOnly": true,
+        "maxAge": null
+      }
+  }
+}
